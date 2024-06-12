@@ -1,0 +1,38 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "the best way to watch a videos",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gulggum/wetube-reloaded.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/init.js"
+  },
+  "keywords": [
+    "5174"
+  ],
+  "author": "Heeyoeun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gulggum/wetube-reloaded/issues"
+  },
+  "homepage": "https://github.com/gulggum/wetube-reloaded#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-mongo": "^5.1.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mongoose": "^8.4.0",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.24.5",
+    "nodemon": "^3.1.0"
+  }
+}
