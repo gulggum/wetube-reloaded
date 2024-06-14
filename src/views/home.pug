@@ -2,8 +2,20 @@ extends base.pug
 include mixins/video
 
 block content
-  each potato in videos
+  div.video-grid
+   each potato in videos
+        +video(potato)
+        +video(potato)
+        +video(potato)
+        +video(potato)
+        +video(potato)
+        +video(potato)
+        +video(potato)
         +video(potato)
 
-  else
-   li Sorry nothing found.
+
+
+
+
+   else
+     span.empty__message No videos found.

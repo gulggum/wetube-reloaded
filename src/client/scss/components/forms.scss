@@ -1,0 +1,29 @@
+form {
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba($color: #fff, $alpha: 0.1);
+  border-radius: 10px;
+  border: 1px solid rgba($color: #fff, $alpha: 0.2);
+}
+
+input {
+  all: unset;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 90%;
+  color: white;
+}
+
+input[type="submit"],
+.social__btn {
+  background-color: $brown;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 13px 20px;
+  display: block;
+  background-color: rgba($color: $red, $alpha: 0.9);
+}
