@@ -1,0 +1,48 @@
+#videoContainer {
+  video {
+    width: 100%;
+  }
+
+  #videoControls {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    bottom: 50px;
+    padding: 0px 20px;
+    margin: 0px 20px 0px 20px;
+    align-items: center;
+    background-color: black;
+    border-radius: 20px;
+    height: 40px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    &.showing {
+      opacity: 1;
+    }
+
+    .videoControls__play {
+      display: flex;
+      align-items: center;
+      .videoControls__playBtn {
+        margin-right: 20px;
+      }
+      .videoControls__time {
+        display: flex;
+      }
+    }
+    .videoControls__timeline {
+      width: 100%;
+      margin-left: 20px;
+      margin-right: 20px;
+      color: tomato;
+    }
+    .videoControls__volume {
+      display: flex;
+      align-items: center;
+    }
+
+    #fullScreen {
+      margin-left: 20px;
+    }
+  }
+}
